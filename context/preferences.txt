@@ -1,0 +1,5 @@
+
+-When selecting parts try to find a part in the libraries already, if nothing is there find a suitable part elsewhere.
+-Prioritize big companies like ST micro, TI, Analog, etc. for parts.
+-For SMD passives default to 0402 packages.  If optimizing for space go with 0201.  If space isn't an issue and you need more power choose 0603 or larger based on requirements.
+-When connectors are unknown please default to standard 0.1" male headers.
