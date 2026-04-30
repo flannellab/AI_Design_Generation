@@ -1,0 +1,4576 @@
+(kicad_symbol_lib
+  (version 20250610)
+  (generator "codex_kicad_schematic_generator")
+  (symbol "KSZ9563R"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "U"
+      (at -25.4 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "KSZ9563R"
+      (at -12.7 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Package_DFN_QFN:QFN-64-1EP_8x8mm_P0.4mm_EP6.5x6.5mm_ThermalVias"
+      (at 0 91.44 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/KSZ9563R-Data-Sheet-DS00002419D.pdf"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "Microchip 3-port gigabit Ethernet switch, 2 PHY + RGMII/MII/RMII MAC port"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "KSZ9563R_0_1"
+      (rectangle
+        (start -25.4 -2.54)
+        (end 25.4 88.9)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "KSZ9563R_1_1"
+      (pin passive line
+        (at -27.94 0 0)
+        (length 2.54)
+        (name "TXRX1P_A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "62"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 2.54 0)
+        (length 2.54)
+        (name "TXRX1M_A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "63"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 5.08 0)
+        (length 2.54)
+        (name "TXRX1P_B"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 7.62 0)
+        (length 2.54)
+        (name "TXRX1M_B"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 10.16 0)
+        (length 2.54)
+        (name "TXRX1P_C"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 12.7 0)
+        (length 2.54)
+        (name "TXRX1M_C"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 15.24 0)
+        (length 2.54)
+        (name "TXRX1P_D"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 17.78 0)
+        (length 2.54)
+        (name "TXRX1M_D"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 20.32 0)
+        (length 2.54)
+        (name "VDDIO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "26"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 22.86 0)
+        (length 2.54)
+        (name "VDDIO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "38"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 25.4 0)
+        (length 2.54)
+        (name "VDDIO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "54"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 27.94 0)
+        (length 2.54)
+        (name "AVDDH"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "8"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 30.48 0)
+        (length 2.54)
+        (name "AVDDH"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "19"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 33.02 0)
+        (length 2.54)
+        (name "AVDDH"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "61"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 35.56 0)
+        (length 2.54)
+        (name "AVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 38.1 0)
+        (length 2.54)
+        (name "AVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "11"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 40.64 0)
+        (length 2.54)
+        (name "AVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "16"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 43.18 0)
+        (length 2.54)
+        (name "AVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "56"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 45.72 0)
+        (length 2.54)
+        (name "AVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "64"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 48.26 0)
+        (length 2.54)
+        (name "DVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "20"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 50.8 0)
+        (length 2.54)
+        (name "DVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "34"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 53.34 0)
+        (length 2.54)
+        (name "DVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "37"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 55.88 0)
+        (length 2.54)
+        (name "DVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "41"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 58.42 0)
+        (length 2.54)
+        (name "DVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "51"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 60.96 0)
+        (length 2.54)
+        (name "DVDDL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "55"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 63.5 0)
+        (length 2.54)
+        (name "GND"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "59"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 66.04 0)
+        (length 2.54)
+        (name "EPAD"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "65"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 68.58 0)
+        (length 2.54)
+        (name "ISET"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "60"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 71.12 0)
+        (length 2.54)
+        (name "XI"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "58"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 73.66 0)
+        (length 2.54)
+        (name "XO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "57"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 0 180)
+        (length 2.54)
+        (name "TXRX2P_A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "9"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 2.54 180)
+        (length 2.54)
+        (name "TXRX2M_A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "10"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 5.08 180)
+        (length 2.54)
+        (name "TXRX2P_B"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "12"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 7.62 180)
+        (length 2.54)
+        (name "TXRX2M_B"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "13"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 10.16 180)
+        (length 2.54)
+        (name "TXRX2P_C"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "14"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 12.7 180)
+        (length 2.54)
+        (name "TXRX2M_C"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "15"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 15.24 180)
+        (length 2.54)
+        (name "TXRX2P_D"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "17"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 17.78 180)
+        (length 2.54)
+        (name "TXRX2M_D"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "18"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 20.32 180)
+        (length 2.54)
+        (name "TX_CLK/REFCLKI"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "33"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 22.86 180)
+        (length 2.54)
+        (name "TX_EN/TX_CTL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "35"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 25.4 180)
+        (length 2.54)
+        (name "TXD3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "29"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 27.94 180)
+        (length 2.54)
+        (name "TXD2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "30"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 30.48 180)
+        (length 2.54)
+        (name "TXD1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "31"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 33.02 180)
+        (length 2.54)
+        (name "TXD0"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "32"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 35.56 180)
+        (length 2.54)
+        (name "RX_CLK/REFCLKO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "25"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 38.1 180)
+        (length 2.54)
+        (name "RX_DV/CRS_DV/RX_CTL"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "27"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 40.64 180)
+        (length 2.54)
+        (name "RXD3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "21"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 43.18 180)
+        (length 2.54)
+        (name "RXD2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "22"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 45.72 180)
+        (length 2.54)
+        (name "RXD1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "23"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 48.26 180)
+        (length 2.54)
+        (name "RXD0"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "24"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 50.8 180)
+        (length 2.54)
+        (name "SCS_N"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "49"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 53.34 180)
+        (length 2.54)
+        (name "SCL/MDC"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "50"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 55.88 180)
+        (length 2.54)
+        (name "SDO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "47"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 58.42 180)
+        (length 2.54)
+        (name "SDI/SDA/MDIO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "48"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 60.96 180)
+        (length 2.54)
+        (name "INTRP_N"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "45"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 63.5 180)
+        (length 2.54)
+        (name "RESET_N"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "46"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 66.04 180)
+        (length 2.54)
+        (name "PME_N"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "44"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 68.58 180)
+        (length 2.54)
+        (name "GPIO_1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "39"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 71.12 180)
+        (length 2.54)
+        (name "GPIO_2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "40"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 73.66 180)
+        (length 2.54)
+        (name "RX_ER"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "28"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 76.2 180)
+        (length 2.54)
+        (name "TX_ER"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "36"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 78.74 180)
+        (length 2.54)
+        (name "LED2_0"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "42"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 81.28 180)
+        (length 2.54)
+        (name "LED2_1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "43"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 83.82 180)
+        (length 2.54)
+        (name "LED1_0"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "52"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 86.36 180)
+        (length 2.54)
+        (name "LED1_1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "53"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+  (symbol "LAN7800"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "U"
+      (at -25.4 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "LAN7800"
+      (at -12.7 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm_ThermalVias"
+      (at 0 71.12 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/UNG/ProductDocuments/DataSheets/LAN7800-Data-Sheet-DS00001992.pdf"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "Microchip SuperSpeed USB 3.1 Gen 1 to 10/100/1000 Ethernet controller"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "LAN7800_0_1"
+      (rectangle
+        (start -25.4 -2.54)
+        (end 25.4 68.58)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "LAN7800_1_1"
+      (pin passive line
+        (at -27.94 0 0)
+        (length 2.54)
+        (name "TR0P"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 2.54 0)
+        (length 2.54)
+        (name "TR0N"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 5.08 0)
+        (length 2.54)
+        (name "TR1P"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 7.62 0)
+        (length 2.54)
+        (name "TR1N"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 10.16 0)
+        (length 2.54)
+        (name "TR2P"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 12.7 0)
+        (length 2.54)
+        (name "TR2N"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "8"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 15.24 0)
+        (length 2.54)
+        (name "TR3P"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "10"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 17.78 0)
+        (length 2.54)
+        (name "TR3N"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "11"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 20.32 0)
+        (length 2.54)
+        (name "VDD25A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 22.86 0)
+        (length 2.54)
+        (name "VDD25A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 25.4 0)
+        (length 2.54)
+        (name "VDD25A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "9"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 27.94 0)
+        (length 2.54)
+        (name "VDD25A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "12"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 30.48 0)
+        (length 2.54)
+        (name "VDD12_SW_OUT"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "13"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 33.02 0)
+        (length 2.54)
+        (name "VDD_SW_IN"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "14"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 35.56 0)
+        (length 2.54)
+        (name "VDD12_SW_FB"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "15"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 38.1 0)
+        (length 2.54)
+        (name "VDDVARIO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "20"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 40.64 0)
+        (length 2.54)
+        (name "VDD12CORE"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "21"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 43.18 0)
+        (length 2.54)
+        (name "VDD12A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "25"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 45.72 0)
+        (length 2.54)
+        (name "VDD12A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "30"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 48.26 0)
+        (length 2.54)
+        (name "VDDVARIO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "36"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 50.8 0)
+        (length 2.54)
+        (name "VDD33A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "38"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 53.34 0)
+        (length 2.54)
+        (name "VDDVARIO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "39"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 55.88 0)
+        (length 2.54)
+        (name "VDD12CORE"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "42"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 58.42 0)
+        (length 2.54)
+        (name "VDD12A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "44"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 60.96 0)
+        (length 2.54)
+        (name "VDD25_REG_OUT"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "45"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 63.5 0)
+        (length 2.54)
+        (name "VDD33_REG_IN"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "46"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -27.94 66.04 0)
+        (length 2.54)
+        (name "EPAD"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "49"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 0 180)
+        (length 2.54)
+        (name "USB2_DP"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "26"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 2.54 180)
+        (length 2.54)
+        (name "USB2_DM"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "27"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 5.08 180)
+        (length 2.54)
+        (name "USB3_TXDP"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "28"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 7.62 180)
+        (length 2.54)
+        (name "USB3_TXDM"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "29"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 10.16 180)
+        (length 2.54)
+        (name "USB3_RXDP"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "31"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 12.7 180)
+        (length 2.54)
+        (name "USB3_RXDM"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "32"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 15.24 180)
+        (length 2.54)
+        (name "VBUS_DET"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "23"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 17.78 180)
+        (length 2.54)
+        (name "RESET_N/PME_CLEAR"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "35"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 20.32 180)
+        (length 2.54)
+        (name "PME_N/GPIO4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "22"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 22.86 180)
+        (length 2.54)
+        (name "SUSPEND_N/LED2/GPIO5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "24"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 25.4 180)
+        (length 2.54)
+        (name "LED3/GPIO6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "33"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 27.94 180)
+        (length 2.54)
+        (name "PME_MODE/GPIO7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "43"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 30.48 180)
+        (length 2.54)
+        (name "USBRBIAS"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "37"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 33.02 180)
+        (length 2.54)
+        (name "REF_REXT"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "47"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 35.56 180)
+        (length 2.54)
+        (name "REF_FILT"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "48"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 38.1 180)
+        (length 2.54)
+        (name "XI"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "40"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 40.64 180)
+        (length 2.54)
+        (name "XO"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "41"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 43.18 180)
+        (length 2.54)
+        (name "TEST"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "34"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 45.72 180)
+        (length 2.54)
+        (name "EECS/GPIO0"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "16"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 48.26 180)
+        (length 2.54)
+        (name "EEDI/GPIO1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "17"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 50.8 180)
+        (length 2.54)
+        (name "EEDO/LED0/GPIO2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "18"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 27.94 53.34 180)
+        (length 2.54)
+        (name "EECLK/LED1/GPIO3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "19"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+  (symbol "RJ45_Gigabit_MagJack"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "J"
+      (at -17.78 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "Pulse JK0654219NL"
+      (at -5.08 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Connector_RJ:RJ45_Pulse_JK0654219NL_Horizontal"
+      (at 0 45.72 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" "https://datasheet4u.com/pdf-down/J/K/0/JK0654219_PulseATechnitrol.pdf"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "1-port 10/100/1000Base-T RJ45 MagJack with integrated magnetics and LEDs"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "RJ45_Gigabit_MagJack_0_1"
+      (rectangle
+        (start -17.78 -2.54)
+        (end 17.78 43.18)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "RJ45_Gigabit_MagJack_1_1"
+      (pin passive line
+        (at -20.32 0 0)
+        (length 2.54)
+        (name "MX1+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "11"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 2.54 0)
+        (length 2.54)
+        (name "MX1-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "10"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 5.08 0)
+        (length 2.54)
+        (name "MXCT1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "12"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 7.62 0)
+        (length 2.54)
+        (name "MX2+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 10.16 0)
+        (length 2.54)
+        (name "MX2-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 12.7 0)
+        (length 2.54)
+        (name "MXCT2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 15.24 0)
+        (length 2.54)
+        (name "MX3+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 17.78 0)
+        (length 2.54)
+        (name "MX3-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 20.32 0)
+        (length 2.54)
+        (name "MXCT3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 22.86 0)
+        (length 2.54)
+        (name "MX4+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "8"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 25.4 0)
+        (length 2.54)
+        (name "MX4-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "9"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 27.94 0)
+        (length 2.54)
+        (name "MXCT4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 30.48 0)
+        (length 2.54)
+        (name "LED_L_A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "16"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 33.02 0)
+        (length 2.54)
+        (name "LED_L_K"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "15"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 35.56 0)
+        (length 2.54)
+        (name "LED_R_A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "14"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 38.1 0)
+        (length 2.54)
+        (name "LED_R_K"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "13"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 40.64 0)
+        (length 2.54)
+        (name "SHIELD"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "SH"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+  (symbol "GbE_4Pair_Isolation"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "T"
+      (at -17.78 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "4-pair 1:1 LAN magnetics"
+      (at -5.08 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Transformer_SMD:Transformer_Ethernet_YDS_30F-51NL_SO-24_7.1x15.1mm"
+      (at 0 33.02 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" ""
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "Placeholder 1000BASE-T isolation/coupling transformer for internal PHY-to-PHY link"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "GbE_4Pair_Isolation_0_1"
+      (rectangle
+        (start -17.78 -2.54)
+        (end 17.78 30.48)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "GbE_4Pair_Isolation_1_1"
+      (pin passive line
+        (at -20.32 0 0)
+        (length 2.54)
+        (name "K_A+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 2.54 0)
+        (length 2.54)
+        (name "K_A-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 5.08 0)
+        (length 2.54)
+        (name "K_CT_A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 7.62 0)
+        (length 2.54)
+        (name "K_B+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 10.16 0)
+        (length 2.54)
+        (name "K_B-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 12.7 0)
+        (length 2.54)
+        (name "K_CT_B"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 15.24 0)
+        (length 2.54)
+        (name "K_C+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 17.78 0)
+        (length 2.54)
+        (name "K_C-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "8"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 20.32 0)
+        (length 2.54)
+        (name "K_CT_C"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "9"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 22.86 0)
+        (length 2.54)
+        (name "K_D+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "10"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 25.4 0)
+        (length 2.54)
+        (name "K_D-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "11"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -20.32 27.94 0)
+        (length 2.54)
+        (name "K_CT_D"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "12"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 0 180)
+        (length 2.54)
+        (name "L_A+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "13"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 2.54 180)
+        (length 2.54)
+        (name "L_A-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "14"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 5.08 180)
+        (length 2.54)
+        (name "L_CT_A"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "15"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 7.62 180)
+        (length 2.54)
+        (name "L_B+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "16"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 10.16 180)
+        (length 2.54)
+        (name "L_B-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "17"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 12.7 180)
+        (length 2.54)
+        (name "L_CT_B"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "18"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 15.24 180)
+        (length 2.54)
+        (name "L_C+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "19"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 17.78 180)
+        (length 2.54)
+        (name "L_C-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "20"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 20.32 180)
+        (length 2.54)
+        (name "L_CT_C"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "21"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 22.86 180)
+        (length 2.54)
+        (name "L_D+"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "22"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 25.4 180)
+        (length 2.54)
+        (name "L_D-"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "23"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 20.32 27.94 180)
+        (length 2.54)
+        (name "L_CT_D"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "24"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+  (symbol "Header_1x02"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "J"
+      (at -8.89 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "Header_1x02"
+      (at 3.81 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+      (at 0 7.62 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" ""
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "1x2 2.54mm male header"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "Header_1x02_0_1"
+      (rectangle
+        (start -8.89 -2.54)
+        (end 8.89 5.08)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "Header_1x02_1_1"
+      (pin passive line
+        (at -11.43 0 0)
+        (length 2.54)
+        (name "Pin_1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "Pin_2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+  (symbol "Header_1x04"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "J"
+      (at -8.89 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "Header_1x04"
+      (at 3.81 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+      (at 0 12.7 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" ""
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "1x4 2.54mm male header"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "Header_1x04_0_1"
+      (rectangle
+        (start -8.89 -2.54)
+        (end 8.89 10.16)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "Header_1x04_1_1"
+      (pin passive line
+        (at -11.43 0 0)
+        (length 2.54)
+        (name "Pin_1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "Pin_2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 5.08 0)
+        (length 2.54)
+        (name "Pin_3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 7.62 0)
+        (length 2.54)
+        (name "Pin_4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+  (symbol "Header_1x08"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "J"
+      (at -8.89 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "Header_1x08"
+      (at 3.81 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+      (at 0 22.86 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" ""
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "1x8 2.54mm male header"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "Header_1x08_0_1"
+      (rectangle
+        (start -8.89 -2.54)
+        (end 8.89 20.32)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "Header_1x08_1_1"
+      (pin passive line
+        (at -11.43 0 0)
+        (length 2.54)
+        (name "Pin_1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "Pin_2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 5.08 0)
+        (length 2.54)
+        (name "Pin_3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 7.62 0)
+        (length 2.54)
+        (name "Pin_4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 10.16 0)
+        (length 2.54)
+        (name "Pin_5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 12.7 0)
+        (length 2.54)
+        (name "Pin_6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 15.24 0)
+        (length 2.54)
+        (name "Pin_7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 17.78 0)
+        (length 2.54)
+        (name "Pin_8"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "8"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+  (symbol "Header_1x10"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "J"
+      (at -8.89 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "Header_1x10"
+      (at 3.81 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+      (at 0 27.94 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" ""
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "1x10 2.54mm male header"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "Header_1x10_0_1"
+      (rectangle
+        (start -8.89 -2.54)
+        (end 8.89 25.4)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "Header_1x10_1_1"
+      (pin passive line
+        (at -11.43 0 0)
+        (length 2.54)
+        (name "Pin_1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "Pin_2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 5.08 0)
+        (length 2.54)
+        (name "Pin_3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 7.62 0)
+        (length 2.54)
+        (name "Pin_4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 10.16 0)
+        (length 2.54)
+        (name "Pin_5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 12.7 0)
+        (length 2.54)
+        (name "Pin_6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 15.24 0)
+        (length 2.54)
+        (name "Pin_7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 17.78 0)
+        (length 2.54)
+        (name "Pin_8"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "8"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 20.32 0)
+        (length 2.54)
+        (name "Pin_9"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "9"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 22.86 0)
+        (length 2.54)
+        (name "Pin_10"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "10"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+  (symbol "Header_1x20"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "J"
+      (at -8.89 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "Header_1x20"
+      (at 3.81 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+      (at 0 53.34 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" ""
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "1x20 2.54mm male header"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "Header_1x20_0_1"
+      (rectangle
+        (start -8.89 -2.54)
+        (end 8.89 50.8)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "Header_1x20_1_1"
+      (pin passive line
+        (at -11.43 0 0)
+        (length 2.54)
+        (name "Pin_1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "Pin_2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 5.08 0)
+        (length 2.54)
+        (name "Pin_3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 7.62 0)
+        (length 2.54)
+        (name "Pin_4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 10.16 0)
+        (length 2.54)
+        (name "Pin_5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 12.7 0)
+        (length 2.54)
+        (name "Pin_6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 15.24 0)
+        (length 2.54)
+        (name "Pin_7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "7"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 17.78 0)
+        (length 2.54)
+        (name "Pin_8"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "8"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 20.32 0)
+        (length 2.54)
+        (name "Pin_9"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "9"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 22.86 0)
+        (length 2.54)
+        (name "Pin_10"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "10"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 25.4 0)
+        (length 2.54)
+        (name "Pin_11"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "11"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 27.94 0)
+        (length 2.54)
+        (name "Pin_12"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "12"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 30.48 0)
+        (length 2.54)
+        (name "Pin_13"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "13"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 33.02 0)
+        (length 2.54)
+        (name "Pin_14"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "14"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 35.56 0)
+        (length 2.54)
+        (name "Pin_15"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "15"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 38.1 0)
+        (length 2.54)
+        (name "Pin_16"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "16"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 40.64 0)
+        (length 2.54)
+        (name "Pin_17"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "17"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 43.18 0)
+        (length 2.54)
+        (name "Pin_18"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "18"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 45.72 0)
+        (length 2.54)
+        (name "Pin_19"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "19"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -11.43 48.26 0)
+        (length 2.54)
+        (name "Pin_20"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "20"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+  (symbol "AP62300WU_Buck"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "U"
+      (at -12.7 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "AP62300WU"
+      (at 0 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+      (at 0 10.16 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" ""
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "3A adjustable buck regulator"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "AP62300WU_Buck_0_1"
+      (rectangle
+        (start -12.7 -2.54)
+        (end 12.7 7.62)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "AP62300WU_Buck_1_1"
+      (pin passive line
+        (at -15.24 0 0)
+        (length 2.54)
+        (name "VIN"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -15.24 2.54 0)
+        (length 2.54)
+        (name "EN"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -15.24 5.08 0)
+        (length 2.54)
+        (name "GND"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 15.24 0 180)
+        (length 2.54)
+        (name "SW"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 15.24 2.54 180)
+        (length 2.54)
+        (name "FB"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 15.24 5.08 180)
+        (length 2.54)
+        (name "BST"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "6"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+  (symbol "TLV75525PDBV"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "U"
+      (at -12.7 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Value" "TLV75525PDBV"
+      (at 0 -5.08 0)
+      
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+      (at 0 10.16 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (property "Description" "TI 500mA low-Iq LDO, fixed 2.5V output"
+      (at 0 0 0)
+      
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    )
+    (symbol "TLV75525PDBV_0_1"
+      (rectangle
+        (start -12.7 -2.54)
+        (end 12.7 7.62)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "TLV75525PDBV_1_1"
+      (pin passive line
+        (at -15.24 0 0)
+        (length 2.54)
+        (name "IN"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "1"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -15.24 2.54 0)
+        (length 2.54)
+        (name "EN"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "3"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at -15.24 5.08 0)
+        (length 2.54)
+        (name "GND"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "2"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 15.24 0 180)
+        (length 2.54)
+        (name "OUT"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "5"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+      (pin passive line
+        (at 15.24 2.54 180)
+        (length 2.54)
+        (name "NC"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+        (number "4"
+          (effects
+      (font
+        (size 1.016 1.016)
+      )
+    )
+        )
+      )
+    )
+  )
+)
